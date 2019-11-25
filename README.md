@@ -38,11 +38,22 @@ ser mayor que el precio. En caso que el usuario lo ponga de esta forma, no se po
 
 En esta ventana es donde se realizarán las compras de los productos ya registrados. Para ello se debe de seleccionar un **Proveedor**
 y un **Producto**, luego se ingresa la cantidad, y automáticamente se llenan los campos: **Marca**, **Unidad de medida**,
-**Precio** e **Importe**. Para agregar dicho producto a la compra, se le da click al botón *Agregar*.
+**Precio** e **Importe**. Para agregar dicho producto a la compra, se le da click al botón *Agregar*. El botón imprimir sirve para
+imprimir los datos que están en el detalle.
 
 En caso de no tener algún proveedor o algún producto registrado, desde ésta ventana se puede hacer. Si es para agregar un proveedor,
 se procede a dar click al botón **+** que está a su lado.
 En caso que sea para agregar un producto, es similar, se procede a dar click al botón **+** que está a su lado.
+
+# Consultas
+Cada registro antes mencionado tiene una consulta.
+Las consultas son de acceso público a todos los usuarios, excepto la consulta de usuarios, a quien sólo tiene permitido acceder el
+adminitrador.
+## Consulta de compras de productos
+![Consulta](https://user-images.githubusercontent.com/54611432/69558326-63a0cd00-0f7e-11ea-94f4-012855119392.png)
+En esta consulta, podemos consultar con rango de fechas, elegimos la fecha desde, hasta la que queremos consultar. En el criterio se coloca lo que se va a consultar dependiendo de lo que esté seleccionado en el filtro. En caso que no se seleccione ningún filtro cuando se le da click al botón *consultar*, se consultan todas las compras existentes (dependiendo del rango de fechas). El botón imprimir, es para imprimir un reporte de acuerdo con lo que se consulte.
+
+Las demás consultas son similar a ésta, la única diferencia es que no tienen rango de fechas.
 
 ## Pre-Requisitos
 Para el buen funcionamiento de este programa, se necesita una computadora con las siguientes características:
