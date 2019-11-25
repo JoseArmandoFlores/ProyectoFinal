@@ -1,6 +1,6 @@
 # ProyectoFinal-Agroquímicos Fuentes
 ## Comenzando
-Estas instrucciones permitirán utilizar el programa correctamente y así evitar posibles errores.
+Estas instrucciones permitirán utilizar el programa correctamente y así evitar posibles errores en su funcionalidad.
 
 ![Login](https://user-images.githubusercontent.com/54611432/69515327-9fa74400-0f24-11ea-8f30-78358a450231.png)
 
