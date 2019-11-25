@@ -34,7 +34,6 @@
             this.UsuarioTextBox = new System.Windows.Forms.TextBox();
             this.ContrasenaTextBox = new System.Windows.Forms.TextBox();
             this.MyErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
-            this.MostrarCheckBox = new System.Windows.Forms.CheckBox();
             this.IngresarButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.MyErrorProvider)).BeginInit();
             this.SuspendLayout();
@@ -63,6 +62,8 @@
             // 
             // UsuarioTextBox
             // 
+            this.UsuarioTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.UsuarioTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsuarioTextBox.Location = new System.Drawing.Point(150, 24);
             this.UsuarioTextBox.Margin = new System.Windows.Forms.Padding(4);
@@ -72,6 +73,8 @@
             // 
             // ContrasenaTextBox
             // 
+            this.ContrasenaTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ContrasenaTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ContrasenaTextBox.Location = new System.Drawing.Point(150, 81);
             this.ContrasenaTextBox.Margin = new System.Windows.Forms.Padding(4);
@@ -82,18 +85,6 @@
             // MyErrorProvider
             // 
             this.MyErrorProvider.ContainerControl = this;
-            // 
-            // MostrarCheckBox
-            // 
-            this.MostrarCheckBox.AutoSize = true;
-            this.MostrarCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MostrarCheckBox.Location = new System.Drawing.Point(427, 82);
-            this.MostrarCheckBox.Name = "MostrarCheckBox";
-            this.MostrarCheckBox.Size = new System.Drawing.Size(171, 21);
-            this.MostrarCheckBox.TabIndex = 46;
-            this.MostrarCheckBox.Text = "Mostrar contraseña";
-            this.MostrarCheckBox.UseVisualStyleBackColor = true;
-            this.MostrarCheckBox.CheckedChanged += new System.EventHandler(this.MostrarCheckBox_CheckedChanged);
             // 
             // IngresarButton
             // 
@@ -107,7 +98,7 @@
             this.IngresarButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.IngresarButton.Image = global::ProyectoFinal.Properties.Resources.Login;
             this.IngresarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.IngresarButton.Location = new System.Drawing.Point(129, 143);
+            this.IngresarButton.Location = new System.Drawing.Point(31, 143);
             this.IngresarButton.Name = "IngresarButton";
             this.IngresarButton.Size = new System.Drawing.Size(355, 46);
             this.IngresarButton.TabIndex = 45;
@@ -119,8 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(614, 201);
-            this.Controls.Add(this.MostrarCheckBox);
+            this.ClientSize = new System.Drawing.Size(415, 201);
             this.Controls.Add(this.IngresarButton);
             this.Controls.Add(this.ContrasenaTextBox);
             this.Controls.Add(this.UsuarioTextBox);
@@ -143,6 +133,5 @@
         public System.Windows.Forms.TextBox ContrasenaTextBox;
         private System.Windows.Forms.Button IngresarButton;
         private System.Windows.Forms.ErrorProvider MyErrorProvider;
-        private System.Windows.Forms.CheckBox MostrarCheckBox;
     }
 }
