@@ -114,7 +114,7 @@
             this.ConsultarButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ConsultarButton.Image = global::ProyectoFinal.Properties.Resources.ConsultaBlanco;
             this.ConsultarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ConsultarButton.Location = new System.Drawing.Point(949, 16);
+            this.ConsultarButton.Location = new System.Drawing.Point(950, 16);
             this.ConsultarButton.Name = "ConsultarButton";
             this.ConsultarButton.Size = new System.Drawing.Size(267, 46);
             this.ConsultarButton.TabIndex = 47;
