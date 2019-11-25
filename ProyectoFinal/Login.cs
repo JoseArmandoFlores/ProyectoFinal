@@ -67,18 +67,6 @@ namespace ProyectoFinal
             }
         }
 
-        private void MostrarCheckBox_CheckedChanged(object sender, EventArgs e)
-        {
-            if (MostrarCheckBox.Checked == true)
-            {
-                ContrasenaTextBox.UseSystemPasswordChar = false;
-            }
-            else
-            {
-                ContrasenaTextBox.UseSystemPasswordChar = true;
-            }
-        }
-
         private void Login_Load(object sender, EventArgs e)
         {
             RepositorioBase<Usuarios> Metodos = new RepositorioBase<Usuarios>();
