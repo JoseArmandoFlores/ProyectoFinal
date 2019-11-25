@@ -50,14 +50,14 @@ Cada registro antes mencionado tiene una consulta.
 Las consultas son de acceso público a todos los usuarios, excepto la consulta de usuarios, a quien sólo tiene permitido acceder el
 adminitrador.
 ## Consulta de compras de productos
-![Consulta](https://user-images.githubusercontent.com/54611432/69558326-63a0cd00-0f7e-11ea-94f4-012855119392.png)
+![Consulta](https://user-images.githubusercontent.com/54611432/69559649-bb403800-0f80-11ea-9556-b8ce5732821b.png)
 En esta consulta, podemos consultar con rango de fechas, elegimos la fecha desde, hasta la que queremos consultar. En el criterio se coloca lo que se va a consultar dependiendo de lo que esté seleccionado en el filtro. En caso que no se seleccione ningún filtro cuando se le da click al botón *consultar*, se consultan todas las compras existentes (dependiendo del rango de fechas). El botón imprimir, es para imprimir un reporte de acuerdo con lo que se consulte.
 
 Las demás consultas son similar a ésta, la única diferencia es que no tienen rango de fechas.
 
 ## Pre-Requisitos
 Para el buen funcionamiento de este programa, se necesita una computadora con las siguientes características:
-##Requisitos
+### Requisitos
 **Sistema Operativo:** *Windows 10, 64 bits.*
 
 **Procesador:** *Intel Core i5 a 2.5Ghz.*
