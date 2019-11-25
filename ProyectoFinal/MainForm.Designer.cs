@@ -146,6 +146,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::ProyectoFinal.Properties.Resources._597103_Captura;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.MenuStrip);
             this.IsMdiContainer = true;
