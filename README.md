@@ -5,7 +5,7 @@ Estas instrucciones permitirán utilizar el programa correctamente y así evitar
 ![Login](https://user-images.githubusercontent.com/54611432/69515327-9fa74400-0f24-11ea-8f30-78358a450231.png)
 
 Esta ventana es la primera que se mostrará al iniciar el programa. En ella se deberán ingresar el **Usuario** y **Contraseña**. 
-Si es la primera vez que se ejecuta el programa, por defecto el usuario es Admin y la contraseña es admin123. Luego estaría a 
+Si es la primera vez que se ejecuta el programa, por defecto el usuario es *Admin* y la contraseña es *admin123*. Luego estaría a 
 opción del usuario modificar los datos.
 
 ## Menú
