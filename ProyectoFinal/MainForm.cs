@@ -85,8 +85,6 @@ namespace ProyectoFinal
             proveedores.Show();
         }
 
-       
-
         private void CompraDeProductosToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             cCompraProductos compraProductos = new cCompraProductos();
