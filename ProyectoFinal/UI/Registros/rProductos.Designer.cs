@@ -150,6 +150,7 @@
             this.CostoTextBox.Name = "CostoTextBox";
             this.CostoTextBox.Size = new System.Drawing.Size(328, 24);
             this.CostoTextBox.TabIndex = 44;
+            this.CostoTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CostoTextBox_KeyPress);
             // 
             // label7
             // 
@@ -227,6 +228,7 @@
             this.CantidadExistenteTextBox.Name = "CantidadExistenteTextBox";
             this.CantidadExistenteTextBox.Size = new System.Drawing.Size(328, 24);
             this.CantidadExistenteTextBox.TabIndex = 36;
+            this.CantidadExistenteTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CantidadExistenteTextBox_KeyPress);
             // 
             // MarcaTextBox
             // 
@@ -249,6 +251,7 @@
             this.PrecioTextBox.Name = "PrecioTextBox";
             this.PrecioTextBox.Size = new System.Drawing.Size(328, 24);
             this.PrecioTextBox.TabIndex = 34;
+            this.PrecioTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.PrecioTextBox_KeyPress);
             // 
             // NombreTextBox
             // 
@@ -327,6 +330,7 @@
             this.CantidadMinimaTextBox.Name = "CantidadMinimaTextBox";
             this.CantidadMinimaTextBox.Size = new System.Drawing.Size(328, 24);
             this.CantidadMinimaTextBox.TabIndex = 53;
+            this.CantidadMinimaTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CantidadMinimaTextBox_KeyPress);
             // 
             // rProductos
             // 

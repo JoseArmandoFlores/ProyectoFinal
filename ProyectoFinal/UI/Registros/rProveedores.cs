@@ -237,5 +237,20 @@ namespace ProyectoFinal.UI.Registros
             LlenarComboBoxUsuario();
             UsuarioComboBox.SelectedValue = (Login.UsuarioId);
         }
+
+        private void TelefonoMaskedTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            rProductos.ValidarN(e);
+        }
+
+        private void CelularMaskedTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            rProductos.ValidarN(e);
+        }
+
+        private void RncTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            rProductos.ValidarN(e);
+        }
     }
 }

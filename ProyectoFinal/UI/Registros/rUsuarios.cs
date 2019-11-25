@@ -208,5 +208,15 @@ namespace ProyectoFinal.UI.Registros
                 MessageBox.Show("Usuario no encontrado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void TelefonoMaskedTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            rProductos.ValidarN(e);
+        }
+
+        private void CelularMaskedTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            rProductos.ValidarN(e);
+        }
     }
 }

@@ -263,6 +263,7 @@
             this.TelefonoMaskedTextBox.Name = "TelefonoMaskedTextBox";
             this.TelefonoMaskedTextBox.Size = new System.Drawing.Size(381, 22);
             this.TelefonoMaskedTextBox.TabIndex = 47;
+            this.TelefonoMaskedTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TelefonoMaskedTextBox_KeyPress);
             // 
             // CelularMaskedTextBox
             // 
@@ -273,6 +274,7 @@
             this.CelularMaskedTextBox.Name = "CelularMaskedTextBox";
             this.CelularMaskedTextBox.Size = new System.Drawing.Size(381, 22);
             this.CelularMaskedTextBox.TabIndex = 48;
+            this.CelularMaskedTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CelularMaskedTextBox_KeyPress);
             // 
             // label1
             // 
@@ -377,7 +379,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "rUsuarios";
             this.Text = "Registro de Usuarios";
-            //this.Load += new System.EventHandler(this.RUsuarios_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.IdNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MyErrorProvider)).EndInit();

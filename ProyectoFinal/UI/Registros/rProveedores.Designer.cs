@@ -229,6 +229,7 @@
             this.RncTextBox.Name = "RncTextBox";
             this.RncTextBox.Size = new System.Drawing.Size(377, 24);
             this.RncTextBox.TabIndex = 36;
+            this.RncTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RncTextBox_KeyPress);
             // 
             // ApellidoTextBox
             // 
@@ -285,6 +286,7 @@
             this.TelefonoMaskedTextBox.Name = "TelefonoMaskedTextBox";
             this.TelefonoMaskedTextBox.Size = new System.Drawing.Size(377, 22);
             this.TelefonoMaskedTextBox.TabIndex = 47;
+            this.TelefonoMaskedTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TelefonoMaskedTextBox_KeyPress);
             // 
             // CelularMaskedTextBox
             // 
@@ -295,6 +297,7 @@
             this.CelularMaskedTextBox.Name = "CelularMaskedTextBox";
             this.CelularMaskedTextBox.Size = new System.Drawing.Size(377, 22);
             this.CelularMaskedTextBox.TabIndex = 48;
+            this.CelularMaskedTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CelularMaskedTextBox_KeyPress);
             // 
             // label1
             // 

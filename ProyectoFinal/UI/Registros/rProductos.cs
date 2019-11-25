@@ -14,6 +14,29 @@ namespace ProyectoFinal.UI.Registros
 {
     public partial class rProductos : Form
     {
+        public static void ValidarN(KeyPressEventArgs e)
+        {
+            if (char.IsNumber(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsSeparator(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsPunctuation(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
         public rProductos()
         {
             InitializeComponent();
@@ -214,6 +237,26 @@ namespace ProyectoFinal.UI.Registros
             {
                 MessageBox.Show("Producto no encontrado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void PrecioTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            ValidarN(e);
+        }
+
+        private void CostoTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            ValidarN(e);
+        }
+
+        private void CantidadMinimaTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            ValidarN(e);
+        }
+
+        private void CantidadExistenteTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            ValidarN(e);
         }
     }
 }
